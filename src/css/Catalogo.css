@@ -54,10 +54,11 @@
 
   .card-button-catalogo a:hover{
     color: white;
+
   }
 
   .card-button-catalogo:hover {
-    background-color: #f8ec20;
+    background-color: black;
     transition: 1s;
   }
   
@@ -88,7 +89,7 @@
   .fila-catalogo{
     margin-right: auto;
     margin-left: auto;
-    margin: 0 20% 0 20%;
+    padding: 0% 45% 0% 46%;
     justify-content: center;
     display: wrap;
     width: 100%;
