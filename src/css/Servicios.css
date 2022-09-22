@@ -66,18 +66,22 @@ img {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
+  width: 100%;
+
 }
 
 .cards_item {
   display: flex;
-  padding: 0 1rem 1rem 0;
+  padding: 0 5px 5px 0;
+  width: fit-content;
+  margin: 0 auto;
   
 }
 
 @media (min-width: 40rem) {
   .cards_item {
-    width: 19%;
+    width: 15%;
   }
 }
 
