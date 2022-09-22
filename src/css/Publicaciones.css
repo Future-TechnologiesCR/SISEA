@@ -1,0 +1,15 @@
+.publicacion{
+    height: 100%;
+    max-height: 50rem;
+    max-width: 100%;
+}
+@media (max-width: 768px) {
+    .publicacion{
+        max-width: 100%;
+    }
+}
+
+.publicaciones {
+    margin: 15px 10% 15px 10%;
+
+}
