@@ -7,9 +7,11 @@ function Encabezado() {
   return (
     <>
           <nav className='navbar'>
-            {/* <a>
-              <img src='src/img/Logo.png'  width="100rem" height="100rem"/>
-            </a> */}
+
+              <img src='src/img/Logo.png'  width="100rem" height="100rem" 
+               className='navbar-imagen'
+              />
+
             <h4 id='titulo' className='logo'><b>SISEA Seguridad</b></h4>
             <ul className={isMobile ? "nav-links-mobile":"nav-links"}
             onClick={()=>setIsMobile(false)}>

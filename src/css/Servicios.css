@@ -31,9 +31,10 @@ h1 {
 }
 
 img {
-  height: auto;
+  height: 100%;
   max-width: 100%;
   vertical-align: middle;
+  object-fit: contain;
 }
 
 .img-card {
@@ -76,13 +77,13 @@ img {
 
 @media (min-width: 40rem) {
   .cards_item {
-    width: 40%;
+    width: 19%;
   }
 }
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 23.333%;
+    width: 15%;
   }
 }
 
