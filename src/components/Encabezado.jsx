@@ -19,13 +19,6 @@ function Encabezado() {
           </h4>
         </div>
 
-<<<<<<< HEAD
-=======
-            <img src='src/img/Logo.png'  width="100rem" height="100rem" 
-             className='navbar-imagen'
-            />
->>>>>>> 449193a9ef3155683b1b99d9dbdc599222cd3ef8
-
         <ul
           className={isMobile ? "nav-links-mobile" : "nav-links"}
           onClick={() => setIsMobile(false)}
