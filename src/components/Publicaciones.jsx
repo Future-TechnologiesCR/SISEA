@@ -9,7 +9,7 @@ function Publicaciones() {
         <>
         <div id='Publicaciones'>
             <h1 className='titulo-publicaciones'>Publicaciones</h1>
-                <div className="publicaciones" style={{ padding: '15px'}}>
+                <div className="publicaciones" style={{ padding: '35px'}}>
                 <div className="carousel-wrapper">
                     <Carousel infiniteLoop autoPlay stopOnHover showThumbs={false} dynamicHeight={true}>
                         <div>

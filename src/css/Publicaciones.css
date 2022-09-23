@@ -1,5 +1,8 @@
 #Publicaciones{
     margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    display: inline
 }
 
 .titulo-publicaciones {
@@ -7,6 +10,17 @@
     font-weight: 400;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.carousel-wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 800px;
+    
 }
 
 .publicacion{
@@ -16,11 +30,15 @@
 }
 @media (max-width: 768px) {
     .publicacion{
-        max-width: 100%;
+        max-width: 500px;
     }
-}
+    .carousel-wrapper{
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+} 
 
 .publicaciones {
-    margin: 15px 10% 15px 10%;
-
+    margin: 15px 5% 15px 5%;
 }
