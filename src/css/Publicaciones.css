@@ -1,3 +1,14 @@
+#Publicaciones{
+    margin-top: 50px;
+}
+
+.titulo-publicaciones {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .publicacion{
     height: 100%;
     max-height: 50rem;

@@ -16,7 +16,7 @@
 }
 
 .cuadro1 {
-    text-align: center;
+    text-align: left;
     width: 96%;
     line-height: 10px;
     margin: 15px 2% 15px 2%;
@@ -24,7 +24,6 @@
     border-radius: 5px;
     background-color: #ebebeb;
     display: flex;
-    flex-direction: column;
     align-items: center;
     
 }
