@@ -9,8 +9,8 @@ function Contacto() {
                 <div className='contacto'>
                     <div className='info-contacto'>
                         <div className='cuadro1'>
-                            <h5><b>Solicite una cita</b></h5>
-                            <p>Oficinas: 8:00 AM - 5:00 PM</p>
+                            <h5><b>Solicite una cita</b></h5><br />
+                            <p>Oficinas: 8:00 AM - 5:00 PM</p><br />
                             <p>Monitoreo 24 horas</p>
                             <p>Soporte tecnico: 8:00 am - 5:00 pm</p>
                             <p>contacto@sisea.co.cr</p>
@@ -76,16 +76,6 @@ function Contacto() {
                                 <div className='wraper'>
                                     <hr />
                                     <h5><b>Comuniquese</b></h5>
-                                    {/* <ul className='redes'>
-                        <li><a href="https://www.facebook.com/SISEA"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.instagram.com/sisea_seguridad/"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=50672920011"><i className="fab fa-whatsapp"></i></a></li>
-                        
-                    </ul> */}
-                                    {/* <a href = "https://www.facebook.com/SISEA/"> <i className = "fab fa-facebook"></i></a>
-                    <a href = "https://www.instagram.com/sisea_seguridad/"> <i className = "fab fa-instagram"></i></a>
-                    <a href = "https://api.whatsapp.com/send?phone=50672920011"> <i className = "fab fa-whatsapp"></i></a> */}
-
                                     <div className="button" 
                                         onClick={() => {
                                             window.open("https://www.instagram.com/sisea_seguridad", "_blank");
