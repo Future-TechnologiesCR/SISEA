@@ -7,6 +7,7 @@ function Publicaciones() {
 
     return (
         <>
+        <h1>Hola</h1>
             <div className="publicaciones" style={{ padding: '15px'}}>
             <div className="carousel-wrapper">
                 <Carousel infiniteLoop autoPlay stopOnHover showThumbs={false} dynamicHeight={true}>
