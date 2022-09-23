@@ -24,18 +24,18 @@ function Encabezado() {
           onClick={() => setIsMobile(false)}
         >
           <li>
-            <Link smooth to="/#inicio" className="INICIO">
+            <Link smooth to="/#" className="INICIO">
               Inicio
             </Link>
           </li>
           <li>
-            <Link smooth to="/#servicios" className="SERVICIOS">
+            <Link smooth to="/#Servicios" className="SERVICIOS">
               Servicios
             </Link>
           </li>
           <li>
-            <Link smooth to="/#contacto" className="CONTACTO">
-              Contacto
+            <Link smooth to="Catalogo/#" className="CONTACTO">
+              Cont&aacute;logo
             </Link>
           </li>
           <li>
