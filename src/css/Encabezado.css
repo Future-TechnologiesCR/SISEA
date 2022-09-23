@@ -110,12 +110,13 @@
     align-items: center;
     position: absolute;
     list-style: none;
-    background-color: #f3ec31f4;
+    background-color: black;
     top: 100px;
     transition: all 0.5s ease;
     animation: linksAnimation 0.5s ease-in-out;
     width: 100%;
-    height: 300px;
+    height: 501px;
+    font-size: 50px;
   }
 
   .INICIO,
@@ -124,18 +125,29 @@
   .INFORMACION,
   .PUBLICACIONES,
   .CONTACTO {
-    color: black;
+    color: white;
     text-align: center;
     margin: 20px;
     width: 100%;
     transition: all 0.5s ease-out;
     animation: linksAnimation 0.5s ease-in-out;
   }
+  .INICIO:hover,
+  .SERVICIOS:hover,
+  .CATALOGO:hover,
+  .INFORMACION:hover,
+  .PUBLICACIONES:hover,
+  .CONTACTO:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
   .mobile-menu-icon {
     display: block;
     position: absolute;
     font-size: 30px;
-    color: white;
+    color: black;
     background-color: #f8ec20;
     border: none;
     outline: none;
