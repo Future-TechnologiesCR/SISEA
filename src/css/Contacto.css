@@ -41,34 +41,51 @@
   padding-right: 230px;
 }
 
-.cuadro3 {
-  border-top: 1px solid;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 10px;
-  padding: 5px;
-  font-size: 50px;
+.container {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  margin-bottom: 10px;
 }
 
-/* made a circle arround every icon */
-.cuadro3 i {
-  border: 3px solid;
-  border-radius: 50%;
-  padding: 10px;
-  margin: 10px;
+.wraper .button{
+  height: 60px;
+  float: left;
+  width: 60px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  transition: all 0.5s ease-out;
+  overflow: hidden;
 }
 
-.cuadro3 i:hover{
-  background-color: black;
-  color: white;
+.wraper .button:hover{
+  width: 200px;
 }
 
-.cuadro3 a{
-  color: white;
+.wraper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
 }
 
-.cuadro3 a:hover{
-  color: white;
+.wraper .button .icon i {
+  font-size: 25px;
+  color: #000;
+}
+
+
+.wraper .button .icon span {
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
 }
 
 .formulario {

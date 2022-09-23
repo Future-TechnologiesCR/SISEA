@@ -20,10 +20,32 @@ function Contacto() {
                     <h5><b>Encuéntrenos</b></h5>
                     <p>Dirección física: De Multiplaza, 800 metros este y 200 metros norte edificio K1, Curridabat, San José, Costa Rica</p>
                 </div>
-                <div className='cuadro3'>
-                    <a href = "https://www.facebook.com/SISEA/"> <i className = "fab fa-facebook"></i></a>
-                    <a href = "https://www.instagram.com/sisea_seguridad/"> <i className = "fab fa-instagram"></i></a>
-                    <a href = "https://api.whatsapp.com/send?phone=50672920011"> <i className = "fab fa-whatsapp"></i></a>
+                <div className="block-left"></div>
+                    <div className="container">
+                        <div className='wraper'>
+                            <h5><b>Comuniquese</b></h5>
+                        <div className="button" 
+                            onClick={() => {
+                                window.open("https://www.instagram.com/sisea_seguridad", "_blank");
+                        }}>
+                        <div className="icon"><i className="fab fa-instagram"></i></div>
+                            <span>Instagram</span>
+                        </div>
+                        <div className="button"
+                            onClick={() => {
+                                window.open("https://www.facebook.com/SISEA", "_blank");
+                        }}>
+                        <div className="icon"><i className="fab fa-facebook"></i></div>
+                            <span>facebook</span>
+                        </div>
+                        <div className="button"
+                            onClick={() => {
+                                window.open("https://api.whatsapp.com/send?phone=50672920011", "_blank");
+                        }}>
+                        <div className="icon"><i className="fab fa-whatsapp"></i></div>
+                            <span>whatsapp</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='formulario'>
@@ -74,7 +96,7 @@ function Contacto() {
                         ENVIAR
                         <div className="shadow"></div>
                         </button>
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5173/"></input>
+                        <input type="hidden" name="_next" value="https://future-technologies-cr.netlify.app/"></input>
                     </form>
                     </div>
                     <div className="block-left"></div>
