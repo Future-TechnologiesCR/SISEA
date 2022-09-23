@@ -1,152 +1,35 @@
-/* *{
-   padding: 0;
-   margin: 0;
-   text-decoration: none;
-   list-style: none;
-   box-sizing: border-box;
-   color: black;
-}
-
-nav{
-   background-color: #f8ec20;
-   height: 100px;
-   width: 100%;
-   position: fixed;
-   z-index: 1000;
-   padding-top: 5px;
-   
-   
-}
-
-.Header {
-   display: flex;
-   justify-content: start;
-   align-items: center;
-   width: 100%;
-   height: 100px;
-   overflow: hidden;
-   padding: 0 20px;
-   padding: 0 2rem;
-}
-
-
-
-nav ul{
-   float: right;
-   margin-right: 20px;
-}
-
-nav ul li{
-   display: inline-block;
-   line-height: 90px;
-   margin: 0 5px;
-}
-
-nav ul li a{
-   color: black;
-   font-size: 18px;
-   padding: 0 2rem;
-   border-radius: 3px;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-
-li a, li a:hover{
-   transition: .5s;
-   color: black;
-}
-
-.checkbtn{
-   font-size: 30px;
-   color: black;
-   float: right;
-   line-height: 80px;
-   margin-right: 40px;
-   cursor: pointer;
-   display: none;
-}
-#check{
-   display: none;
-}
-
-@media only screen and (max-width:1024px){
-   .Header nav{
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-      transition: 1s;
-      transform: translate(-100vh);
-      
-
-   }
-}
-
-@media (max-width: 952px){
-   nav ul li a{
-       font-size: 16px;
-       color: white;
-   }
-   .checkbtn{
-       display: block;
-   }
-}
-
-@media (max-width: 952px){
-
-   .checkbtn{
-       display: block;
-       margin-left: 1rem;
-   }
-   ul{
-       position: fixed;
-       width: 100%;
-       height: 100vh;
-       background: black;
-       top: 100px;
-       left: -100%;
-       text-align: center;
-       transition: all .5s;
-       z-index: 1000;
-   }
-   nav ul li{
-       display: flex;
-       margin: 40px 0;
-       line-height: 30px;
-   }
-   nav ul li a{
-       font-size: 20px;
-   }
-   li a:hover{
-       background: white;
-   }
-   #check:checked ~ ul{
-       left:0;
-   }
-}
-
-#titulo {
-   font-size: 1.2rem;
-   margin-left: 1rem;
-}
-
-@media (max-width: 1355px){
-   #titulo {
-      font-size: 24px;
-      margin-left: 10px;
-   }
-   b {
-      font-size: 24px;
-   }
-}
- */
-
 * {
+<<<<<<< HEAD
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hard {
+  display: flex;
+  align-items: center;
+  background-color: #f8ec20;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo menu";
+  background-color: #f8ec20;
+  color: black;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 20px;
+  margin-left: 12px;
+  font-weight: bold;
+  color: black;
+=======
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -181,21 +64,36 @@ li {
    color: black;
    object-fit: cover;
    justify-content: left;
+>>>>>>> 449193a9ef3155683b1b99d9dbdc599222cd3ef8
 }
 .navbar-imagen {
-   height: 70px;
-   margin-top: 0px;
-   margin-bottom: auto;
-   height: 100%;
+  width: 80px;
+  height: 60px;
+  height: 70px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  height: 100%;
 }
 
 .nav-links {
+<<<<<<< HEAD
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  padding-top: 15px;
+  width: 100%;
+  height: 100%;
+=======
    display: flex;
    flex-direction: row;
    justify-content: flex-end;
    list-style: none;
    max-width: fit-content;
    margin-right: 20px;
+>>>>>>> 449193a9ef3155683b1b99d9dbdc599222cd3ef8
 }
 
 .INICIO,
@@ -204,6 +102,13 @@ li {
 .INFORMACION,
 .PUBLICACIONES,
 .CONTACTO {
+<<<<<<< HEAD
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+=======
    text-decoration: none;
    color: black;
    font-size: 20px;
@@ -215,6 +120,7 @@ li {
    margin-right: 20px;
    width: fit-content;
 
+>>>>>>> 449193a9ef3155683b1b99d9dbdc599222cd3ef8
 }
 
 .INICIO:hover,
@@ -228,9 +134,30 @@ li {
 }
 
 .mobile-menu-icon {
-   display: none;
+  display: none;
 }
+
+@keyframes linksAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 @media screen and (max-width: 1245px) {
+<<<<<<< HEAD
+  .nav-links {
+    width: 100%;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+=======
    .logo{
       display: none;
       margin-left: 70px;
@@ -242,18 +169,55 @@ li {
       width: 100%;
       text-align: center;
    }
+>>>>>>> 449193a9ef3155683b1b99d9dbdc599222cd3ef8
 }
 
-@media screen and (max-width: 950px) {
-   .logo {
-      display: flex;
-      position: absolute;
-      left: 80px;
-      margin-bottom: 30px;
-      margin-top: 5%;
+@media screen and (max-width: 1050px) {
+  .nav-links {
+    display: none;
+  }
 
-   }
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    list-style: none;
+    background-color: #f3ec31f4;
+    top: 100px;
+    transition: all 0.5s ease;
+    animation: linksAnimation 0.5s ease-in-out;
+    width: 100%;
+    height: 300px;
+  }
 
+<<<<<<< HEAD
+  .INICIO,
+  .SERVICIOS,
+  .CATALOGO,
+  .INFORMACION,
+  .PUBLICACIONES,
+  .CONTACTO {
+    color: black;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    animation: linksAnimation 0.5s ease-in-out;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #f8ec20;
+    border: none;
+    outline: none;
+    right: 20px;
+  }
+}
+=======
    .nav-links {
       display: none;
       
@@ -287,7 +251,7 @@ li {
       display: block;
       position: absolute;
       font-size: 30px;
-      color: white;
+      color: black;
       background-color: #f8ec20;
       border: none;
       outline: none;
@@ -296,3 +260,4 @@ li {
       
    }
 }
+>>>>>>> 449193a9ef3155683b1b99d9dbdc599222cd3ef8
