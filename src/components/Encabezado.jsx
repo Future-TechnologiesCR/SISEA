@@ -9,7 +9,7 @@ function Encabezado() {
       <nav className="navbar">
         <div className="hard">
           <img
-            src="src/img/Logo.png"
+            src="/src/img/Logo.png"
             // width="100rem"
             // height="100rem"
             className="navbar-imagen"

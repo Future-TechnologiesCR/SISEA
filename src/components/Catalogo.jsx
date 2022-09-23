@@ -4,7 +4,7 @@ import "/src/css/Catalogo.css"
 
 function Catalogo() {
 
-  return (
+  return ( 
     <>
     <div className='relleno'></div>
       <div id="Catalogo">
@@ -19,7 +19,7 @@ function Catalogo() {
             
           <div className="column-catalogo">
             <Tarjeta
-                img={'src/img/produc1.png'}
+                img={'/src/img/produc1.png'}
                 title={"Panel de control vista"}>
                 Expandible de 48 zonas alambradas o inalámbricas.<br />
                 8 zonas básicas alambradas, hasta 15 zonas dobladas.<br />
