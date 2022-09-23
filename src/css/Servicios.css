@@ -8,16 +8,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  color: #272727;
-  font-family: 'Quicksand', serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-  margin: 1rem;
-} */
-
 .MAIN {
   max-width: 1400px;
   margin: 0 1rem;
@@ -43,20 +33,6 @@ img {
   height: 100%;
   width: 50%;
 }
-
-/* .btn {
-  color: #383838;
-  padding: 0.8rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-} */
 
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.12);
