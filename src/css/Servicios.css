@@ -66,10 +66,10 @@ img {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin: 2%;
   padding: 0px;
   width: 100%;
-}
+} 
 
 .cards_item {
   display: flex;
@@ -94,7 +94,8 @@ img {
   .img-card {
     margin-left: 0%;
     object-fit: contain;
-    margin-left: 15%;
+    margin-left: 27%;
+
   }
 }
 

@@ -10,7 +10,7 @@ function Servicios() {
             <div className="card">
               <div className="card_image">
                 <img className="img-card" src="src/img/servicio1.png" />
-              </div>
+              </div> 
               <div className="card_content">
                 <h2 className="card_title">Sistemas de video</h2>
                 <p className="card_text">
