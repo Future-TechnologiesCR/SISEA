@@ -33,7 +33,7 @@ function Catalogo() {
                 Agenda hora /Día para usuarios.
             </Tarjeta> 
             <Tarjeta 
-                img={'src/img/produc4.png'}
+                img={'/src/img/produc4.png'}
                 title={"Detector de moviviento interno"}>
                 Gran rechazo a EMI y RFI (interferencias electromagnéticas y de radiofrecuencia<br />
                 Circuito Impreso usa sólo componentes de montaje en superficie<br />
@@ -42,7 +42,7 @@ function Catalogo() {
                 Ver características y especificaciones comunes a todos los Detectores de Movimiento Analógicos.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc7.png'}
+                img={'/src/img/produc7.png'}
                 title={"Contacto magnético"}>
                 Montaje en L ajustable.<br />
                 Cable blindado.<br />
@@ -50,14 +50,14 @@ function Catalogo() {
                 Para portones, cocheras y cortinas metálicas.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc10.png'}
+                img={'/src/img/produc10.png'}
                 title={"Batería sellada"}>
                 Recargable.<br />
                 Batería de Gel.<br />
                 12 volt y 4 amp.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc13.png'}
+                img={'/src/img/produc13.png'}
                 title={"Estación Manual de aviso de Incendios"}>
                 De doble acción.<br />
                 Leyenda en español.<br />
@@ -67,7 +67,7 @@ function Catalogo() {
                 Alambrada.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc16.png'}
+                img={'/src/img/produc16.png'}
                 title={"Sensor Fotoeléctrico para Exteriores"}>
                 Sensor pasivo infrarrojo.<br />
                 Cobertura 12x15 metros.<br />
@@ -77,7 +77,7 @@ function Catalogo() {
                 Áreas semi-expuestas como patios de luz , cochera, áticos, cielorrasos, balcones, parqueos y áreas abiertas.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc19.png'}
+                img={'/src/img/produc19.png'}
                 title={"Cámara de Video WIFI/IP"}>
                 Resolución FULL HD 1080P / 2 Mega PIxel.<br />
                 Sensor de Imagen CMOS.<br />
@@ -97,7 +97,7 @@ function Catalogo() {
                 Smart Phone IPhone,Ipad,Android,Tablet
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/kit1.png'}
+                img={'/src/img/kit1.png'}
                 title={"KIT GAS"}>
                 1 Panel de control HONEYWELL<br />
                 1 Teclado de control<br />
@@ -114,7 +114,7 @@ function Catalogo() {
                 Servicio de reportes vía Email
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/kit4.png'}
+                img={'/src/img/kit4.png'}
                 title={"KIT 250"}>
                 1 Panel de control HONEYWELL<br />
                 1 Teclado de control<br />
@@ -130,7 +130,7 @@ function Catalogo() {
                 Servicio de reportes vía Email
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/kit7.png'}
+                img={'/src/img/kit7.png'}
                 title={"KIT 4 Cámaras"}>
                 1 Videograbador digital FULL HD<br />
                 5 Mp de 4 canales salida HDMI<br />
@@ -144,7 +144,7 @@ function Catalogo() {
           </div>
           <div className="column-catalogo">
             <Tarjeta 
-                img={'src/img/produc2.png'}
+                img={'/src/img/produc2.png'}
                 title={"Módulo de comunicación GRR-SISEA"}>
                 Permite la comunicación de forma inalámbrica entre su sistema de seguridad y nuestro Centro de Monitoreo, no requiere líneas telefónicas o cableados extras.<br />
                 Medidor de señal celular<br />
@@ -153,7 +153,7 @@ function Catalogo() {
                 Tiene respaldo/backup hasta 8 horas sin fluido eléctrico.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc5.png'}
+                img={'/src/img/produc5.png'}
                 title={"Detector de movimiento interno"}>
                 Patrón de cobertura de 11 x 12 m.<br />
                 Compensación de temperatura.<br />
@@ -164,7 +164,7 @@ function Catalogo() {
                 Batería de LITIUM3V.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc8.png'}
+                img={'/src/img/produc8.png'}
                 title={"Llaves inalámbricas"}>
                 4 botones programables.<br />
                 LED de comando.<br />
@@ -173,7 +173,7 @@ function Catalogo() {
                 Dimensiones 57 x 31.75 x 12.7 m.m
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc11.png'}
+                img={'/src/img/produc11.png'}
                 title={"Sirena"}>
                 Combinación de altavoz y accionador de sirena de 6 a 12VDC.<br />
                 Dos tonos: constante o discontinuo.<br />
@@ -182,7 +182,7 @@ function Catalogo() {
                 La placa de seguridad incorporada protege a los cables de ataques.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc14.png'}
+                img={'/src/img/produc14.png'}
                 title={"Luz estroboscópica"}>
                 Color Roja.<br />
                 Leyenda en español.<br />
@@ -191,7 +191,7 @@ function Catalogo() {
                 Montaje a Pared.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc17.png'}
+                img={'/src/img/produc17.png'}
                 title={"Sensor líneal de barrera infraroja"}>
                 Detector de Barrera por infrarrojos.<br />
                 Alcance máx de detección 60 mts.<br />
@@ -203,7 +203,7 @@ function Catalogo() {
                 Tapias, jardines, parqueos y mallas.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc20.png'}
+                img={'/src/img/produc20.png'}
                 title={"Video grabador de 4,8,16 canales Hibrido"}>
                 Grabador de 4,8 y 16 canales.<br />
                 Soporta cámaras 5 Mp, 4 HD-TVI, AHD y análogas.<br />
@@ -218,7 +218,7 @@ function Catalogo() {
                 Fuente de alimentación.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/kit2.png'}
+                img={'/src/img/kit2.png'}
                 title={"KIT 180"}>
                 1 Panel de control HONEYWELL<br />
                 1 Teclado de control<br />
@@ -234,7 +234,7 @@ function Catalogo() {
                 Servicio de reportes vía Email
             </Tarjeta>
             <Tarjeta className="huge"
-                img={'src/img/kit5.png'}
+                img={'/src/img/kit5.png'}
                 title={"KIT 200 + 2 CAM"}>
                 1 Panel de control HONEYWELL<br />
                 1 Teclado de control<br />
@@ -256,7 +256,7 @@ function Catalogo() {
                 Compatible ANDROID/IOS
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/kit8.png'}
+                img={'/src/img/kit8.png'}
                 title={"KIT 8 Cámaras"}>
                 1 Videograbador digital FULL HD<br />
                 5 Mp de 8 canales salida HDMI<br />
@@ -270,7 +270,7 @@ function Catalogo() {
           </div>
           <div className="column-catalogo">
             <Tarjeta 
-                img={'src/img/produc3.png'}
+                img={'/src/img/produc3.png'}
                 title={"Teclado de control 6150 RF"}>
                 Receptor inalámbrico de 16 Zonas 5881ENM.<br />
                 Transmisor de estado 5800TM<br />
@@ -281,7 +281,7 @@ function Catalogo() {
                 Teclado Iluminado.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc6.png'}
+                img={'/src/img/produc6.png'}
                 title={"Contacto magnético"}>
                 Contacto Inalámbrico.<br />
                 Color blanco.<br />
@@ -290,21 +290,21 @@ function Catalogo() {
                 Incluye Batería de 3 Volt.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc9.png'}
+                img={'/src/img/produc9.png'}
                 title={"Transformador 16.5 VAC."}>
                 Para uso con paneles.<br />
                 Transformador regulado.<br />
                 Aprobado por UL.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc12.png'}
+                img={'/src/img/produc12.png'}
                 title={"Sensor de Humo"}>
                 Fotoeléctrico y temperatura.<br />
                 Áreas Internas.<br />
                 Alambrado.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc15.png'}
+                img={'/src/img/produc15.png'}
                 title={"Sensor doble tecnología"}>
                 Sensor infrarrojo pasivo y microondas.<br />
                 Cobertura 12x12 metros<br />
@@ -314,7 +314,7 @@ function Catalogo() {
                 Áreas semi-expuestas como patios de luz , cochera, áticos, cielorrasos y balcones.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc18.png'}
+                img={'/src/img/produc18.png'}
                 title={"Cámara de video tipo mini domo"}>
                 Max 25 fps@5MP (16:9 video output)<br />
                 CVI/CVBS/AHD/TVI switchable.<br />
@@ -326,7 +326,7 @@ function Catalogo() {
                 IP67
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/produc21.png'}
+                img={'/src/img/produc21.png'}
                 title={"Sistema de control de accesso autocontenidos o administrados"}>
                 Sistemas que se integran a través de un PC local o remoto.<br />
                 Uso de un software de control que permite llevar un registro de todas las operaciones realizadas.<br />
@@ -335,7 +335,7 @@ function Catalogo() {
                 Controlar y administrar puertas o acciones, según la necesidad.
             </Tarjeta>
             <Tarjeta 
-                img={'src/img/kit3.png'}
+                img={'/src/img/kit3.png'}
                 title={"KIT 200"}>
                 1 Panel de control HONEYWELL<br />
                 1 Teclado de control<br />
@@ -352,7 +352,7 @@ function Catalogo() {
             </Tarjeta>
             <Tarjeta 
             
-                img={'src/img/kit6.png'}
+                img={'/src/img/kit6.png'}
                 title={"KIT 200 + 4 CAM"}>
                 1 Panel de control HONEYWELL
                 1 Teclado de control

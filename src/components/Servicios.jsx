@@ -17,7 +17,6 @@ function Servicios() {
                   Brindamos soluciones tecnológicas con equipos de alta calidad
                   para la visualización, captura y almacenamiento en sistemas de
                   CCTV
-                   
                 </p>
               </div>
             </div>
