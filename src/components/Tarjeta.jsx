@@ -1,6 +1,9 @@
 import React from 'react'
+import "/src/css/Catalogo.css"
+// the tarjeta styles are in the Catalogo.css file 
 
-export default function Tarjeta({ img, title, children }) {
+export default function Tarjeta({ img, title, children }, component, visibility=false) {
+  const [visible, setVisible] = React.useState(visibility)
   return (
     <>
       <div className="card-catalogo"
@@ -10,7 +13,11 @@ export default function Tarjeta({ img, title, children }) {
         <h3 className="card-titulo-catalogo">{title}</h3>
         <hr />
         <div className="card-body-catalogo">
-          <p>{children}</p>
+          {/* when click the button show the 'p' */}
+          <button className="btn" onClick={() => setVisible(!visible)}>
+            {visible ? "Ver Menos" : "Ver más"}
+          </button>
+          {visible && <p>{children}</p>}
         </div>
       </div>
     </>
