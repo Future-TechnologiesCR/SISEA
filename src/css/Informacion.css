@@ -81,6 +81,24 @@
     .info{
         width: 100%;
     }
+    .valores {
+        display: flex;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .valores1 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 60px;
+    }
+    
+    .valores2 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 30px;
+    }
   }
 
     @media (max-width: 40rem) {
@@ -96,5 +114,22 @@
         .info{
             width: 100%;
 
+        }
+        .valores {
+            display: flex;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+        .valores1 {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-left: 60px;
+        }
+        .valores2 {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-left: 30px;
         }
     }
