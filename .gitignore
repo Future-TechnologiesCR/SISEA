@@ -25,5 +25,3 @@ dist-ssr
 
 # add the folder dist to .gitignore
 dist
-
-
