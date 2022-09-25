@@ -1,7 +1,36 @@
 import Tarjeta from './Tarjeta.jsx'
 import { HashLink as Link } from 'react-router-hash-link'
 import "/src/css/Catalogo.css"
-import { produc1, produc2, produc3, produc4, produc5, produc6, produc7, produc8, produc9, produc10, produc11, produc12, produc13, produc14, produc15, produc16, produc17, produc18, produc19, produc20, produc21, kit1, kit2, kit3, kit4, kit5, kit6, kit7, kit8 } from "/src/img/img.js"
+import produc1 from "../img/produc1.png";
+import produc2 from "../img/produc2.png";
+import produc3 from "../img/produc3.png";
+import produc4 from "../img/produc4.png";
+import produc5 from "../img/produc5.png";
+import produc6 from "../img/produc6.png";
+import produc7 from "../img/produc7.png";
+import produc8 from "../img/produc8.png";
+import produc9 from "../img/produc9.png";
+import produc10 from "../img/produc10.png";
+import produc11 from "../img/produc11.png";
+import produc12 from "../img/produc12.png";
+import produc13 from "../img/produc13.png";
+import produc14 from "../img/produc14.png";
+import produc15 from "../img/produc15.png";
+import produc16 from "../img/produc16.png";
+import produc17 from "../img/produc17.png";
+import produc18 from "../img/produc18.png";
+import produc19 from "../img/produc19.png";
+import produc20 from "../img/produc20.png";
+import produc21 from "../img/produc21.png";
+import kit1 from "../img/kit1.png";
+import kit2 from "../img/kit2.png";
+import kit3 from "../img/kit3.png";
+import kit4 from "../img/kit4.png";
+import kit5 from "../img/kit5.png";
+import kit6 from "../img/kit6.png";
+import kit7 from "../img/kit7.png";
+import kit8 from "../img/kit8.png";
+
 
 function Catalogo() {
 
