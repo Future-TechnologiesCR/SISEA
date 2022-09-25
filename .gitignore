@@ -22,13 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# add the folder dist to .gitignore
-<<<<<<< HEAD
-dist
-=======
-dist
-# Funciona?
-
-
->>>>>>> 9f4db5e3fd653ee4234c13b4f2dfebf3eb571838
