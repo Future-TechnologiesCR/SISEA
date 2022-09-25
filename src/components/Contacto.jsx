@@ -82,7 +82,7 @@ function Contacto() {
                             id="email"
                             required
                             className="contact__form-input"
-                            placeholder='Emalil:'
+                            placeholder='Correo Electrónico:'
                             />
                             <textarea
                             type="text"

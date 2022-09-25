@@ -4,6 +4,7 @@
   text-align: center;
 }
 
+
 .titulo-contacto {
   text-align: center;
   margin-top: 20px;
@@ -46,16 +47,12 @@
   border-radius: 5px;
   background-color: #ebebeb;
 }
-
-.cuadro2 p {
-  padding-right: 230px;
-}
-
 .container {
   display: grid;
   width: 100%;
   place-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  
 }
 
 .wraper .button {
@@ -100,7 +97,7 @@
 
 .formulario {
   width: 50%;
-  margin-right: 50px;
+  margin: 1rem auto;
 }
 
 .contact {
@@ -130,6 +127,7 @@
   border: none;
   outline: none;
   background: white;
+  resize: none;
 }
 
 .contact__form-btn {
@@ -163,7 +161,7 @@
   }
 
   .formulario {
-    width: 100%;
+    width: 85%;
   }
 
   .container {
