@@ -1,4 +1,5 @@
 import '/src/css/Informacion.css'
+import info from '../assets/img/info.png'
 
 function Informacion() {
 
@@ -6,7 +7,7 @@ function Informacion() {
     <>
     <div id='Informacion'>  
       <div className='informacion'>
-          <img src='src/img/info.png' className='info-img'/>
+          <img src={info} className='info-img'/>
           <div className='info'>
             <h1 className='titulo-info'>Quienes somos</h1>
             <h5 className='sup-titulo'>Nuestra Misión</h5>

@@ -1,6 +1,11 @@
 import '../css/Publicaciones.css';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import publi1 from '../assets/img/publi1.jpg';
+import publi2 from '../assets/img/publi2.jpg';
+import publi3 from '../assets/img/publi3.jpg';
+import publi4 from '../assets/img/publi4.jpg';
+import publi5 from '../assets/img/publi5.jpg';
 
 
 function Publicaciones() {
@@ -13,21 +18,21 @@ function Publicaciones() {
                 <div className="carousel-wrapper">
                     <Carousel infiniteLoop autoPlay stopOnHover showThumbs={false} dynamicHeight={true}>
                         <div>
-                            <img src="src/img/publi1.jpg" className="publicacion" alt="publicacion1" />
+                            <img src={publi1} className="publicacion" alt="publicacion1" />
 
                         </div>
                         <div>
-                            <img src="src/img/publi2.jpg" className="publicacion" alt="publicacion2" />
+                            <img src={publi2} className="publicacion" alt="publicacion2" />
 
                         </div>
                         <div>
-                            <img src="src/img/publi3.jpg" className="publicacion" alt="publicacion3" />
+                            <img src={publi3} className="publicacion" alt="publicacion3" />
                         </div>
                         <div>
-                            <img src="src/img/publi4.jpg" className="publicacion" alt="publicacion4" />
+                            <img src={publi4} className="publicacion" alt="publicacion4" />
                         </div>
                         <div>
-                            <img src="src/img/publi5.jpg" className="publicacion" alt="publicacion5" />
+                            <img src={publi5} className="publicacion" alt="publicacion5" />
                         </div>
                     </Carousel>
                 </div>

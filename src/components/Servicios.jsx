@@ -1,4 +1,11 @@
 import "/src/css/Servicios.css";
+import produc1 from "../assets/img/servicio1.png"
+import produc2 from "../assets/img/servicio2.png"
+import produc3 from "../assets/img/servicio3.png"
+import produc4 from "../assets/img/servicio4.png"
+import produc5 from "../assets/img/servicio5.png"
+
+
 
 function Servicios() {
   return (
@@ -9,7 +16,7 @@ function Servicios() {
           <li className="cards_item">
             <div className="card">
               <div className="card_image">
-                <img className="img-card" src="src/img/servicio1.png" />
+              <img className="img-card" src={produc1} alt="imagen1" />
               </div> 
               <div className="card_content">
                 <h2 className="card_title">Sistemas de video</h2>
@@ -25,7 +32,7 @@ function Servicios() {
           <li className="cards_item">
             <div className="card">
               <div className="card_image">
-              <img className="img-card" src="src/img/servicio2.png" />
+              <img className="img-card" src={produc2} alt="imagen2" />
               </div>
               <div className="card_content">
                 <h2 className="card_title">Sistemas de Alarma</h2>
@@ -44,7 +51,7 @@ function Servicios() {
           <li className="cards_item">
             <div className="card">
               <div className="card_image">
-              <img className="img-card" src="src/img/servicio3.png" />
+              <img className="img-card" src={produc3} alt="imagen3" />
               </div>
               <div className="card_content">
                 <h2 className="card_title">Monitoreo 24/7</h2>
@@ -63,7 +70,7 @@ function Servicios() {
           <li className="cards_item">
             <div className="card">
               <div className="card_image">
-              <img className="img-card" src="src/img/servicio4.png" />
+              <img className="img-card" src={produc4} alt="imagen4" />
               </div>
               <div className="card_content">
                 <h2 className="card_title">Respuesta Armada</h2>
@@ -80,7 +87,7 @@ function Servicios() {
           <li className="cards_item">
             <div className="card">
               <div className="card_image">
-              <img className="img-card" src="src/img/servicio5.png" />
+              <img className="img-card" src={produc5} alt="imagen5" />
               </div>
               <div className="card_content">
                 <h2 className="card_title">Mantenimiento</h2>

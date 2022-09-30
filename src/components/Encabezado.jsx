@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "/src/css/Encabezado.css";
+import logo from "../assets/img/Logo.png";
 
 function Encabezado() {
   const [isMobile, setIsMobile] = useState(false);
@@ -9,7 +10,7 @@ function Encabezado() {
       <nav className="navbar">
         <div className="hard">
           <img
-            src="/src/img/Logo.png"
+            src={logo}
             // width="100rem"
             // height="100rem"
             className="navbar-imagen"
