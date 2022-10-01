@@ -6,7 +6,6 @@ import Publicaciones from './components/Publicaciones'
 import Contacto from './components/Contacto'
 
 const HomePage = () => {
-
   return (
     <div>
       <Video />
