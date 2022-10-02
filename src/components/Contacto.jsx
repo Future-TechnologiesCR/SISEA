@@ -96,7 +96,7 @@ function Contacto() {
                             ENVIAR
                             <div className="shadow"></div>
                             </button>
-                            <input type="hidden" name="_next" value="https://future-technologies-cr.netlify.app/"></input>
+                            <input type="hidden" name="_next" value="https://futuretechnologiescr.netlify.app/"></input>
                         </form>
                         </div>
                         <div className="block-left"></div>

@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Encabezado />
       <Routes>
         <Route 
-          path="/catalogo"
-          element={<Catalogo />}
+          path="/Catalogo"
+          element={<Catalogo/>}
         />
         <Route
           path="/"
