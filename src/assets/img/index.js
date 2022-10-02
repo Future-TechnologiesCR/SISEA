@@ -1,4 +1,5 @@
 // esportar todas las imágenes de la carpeta
+// coño de su madre aprenda a escribir lawrent att. Kendall<3
 import product1 from './produc1.png';
 import produc2 from "./produc2.png";
 import produc3 from "./produc3.png";
