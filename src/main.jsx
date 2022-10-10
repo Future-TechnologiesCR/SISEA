@@ -4,16 +4,16 @@ import Catalogo from '/src/components/catalogo.jsx'
 import Encabezado from '/src/components/Encabezado.jsx'
 import Pie from '/src/components/pie.jsx'
 import HomePage from './HomePage.jsx'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import '/src/css/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
       <Encabezado />
-      <HashRouter>
+      <Routes>
         <Route 
-          path="/catalogo"
-          element={<Catalogo />}
+          path="/Catalogo"
+          element={<Catalogo/>}
         />
         <Route
           path="/"
@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           element={<HomePage />}
         />
         <Route path="*" element={<HomePage />} />
-      </HashRouter>
+      </Routes>
       <Pie />
   </BrowserRouter>
 ) 
