@@ -6,6 +6,7 @@ import '/src/css/pie.css'
   return (
     <>
         <div className='pie-body'>
+          {/* Test message */}
             <p>© 2022 Creado por <b><a href='https://futuretechnologiescr.netlify.app'>Future Technologies</a></b></p>
         </div>
     </>
