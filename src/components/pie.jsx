@@ -5,7 +5,7 @@ import '/src/css/pie.css'
         <div className='pie-body'>
           {/* Test message */}
             <p>© 2022 Creado por <b>
-            <a href="https://futuretechnologiescr.netlify.app" target={"_blank"} rel="noopener, noreferrer" >Future-Technologies</a>  
+            <a href="https://futuretechcr.com" target={"_blank"} rel="noopener, noreferrer" >Future-Technologies</a>  
               
             </b></p>
         </div>

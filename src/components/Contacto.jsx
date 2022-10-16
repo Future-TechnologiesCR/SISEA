@@ -54,7 +54,7 @@ function Contacto() {
                         <p>CONSULTAS, PRESUPUESTOS, COMPRAS, O AFLIACIONES </p>
                         <div className="wrapper">
                         <form 
-                            action="https://formsubmit.co/pedroborbonserrano@gmail.com" 
+                            action="https://formsubmit.co/info@sisea.co.cr.com" 
                             method="POST"
                             className="contact__form"
                         >
