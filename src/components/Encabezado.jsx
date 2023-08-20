@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "../css/Encabezado.css";
-import logo from "../../src/assets/img/logo.png";
+import logo from "../../src/assets/img/Logo.png";
 
 function Encabezado() {
   const [isMobile, setIsMobile] = useState(false);
