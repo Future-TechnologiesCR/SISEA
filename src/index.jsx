@@ -20,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           index
           element={<HomePage />}
         />
+        console.log("mensaje de prueba")
         <Route path="*" element={<HomePage />} />
       </Routes>
       <Pie />
