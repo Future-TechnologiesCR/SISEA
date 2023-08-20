@@ -1,5 +1,5 @@
 import React from 'react'
-import "/src/css/Catalogo.css"
+import "../css/Catalogo.css"
 // the tarjeta styles are in the Catalogo.css file 
 
 export default function Tarjeta({ img, title, children }, component, visibility=false) {

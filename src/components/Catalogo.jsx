@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
-import "/src/css/Catalogo.css";
+import "../css/Catalogo.css";
 import * as img from "../assets/img";
 import Tarjeta from "./Tarjeta";
 

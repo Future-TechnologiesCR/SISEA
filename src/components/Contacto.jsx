@@ -1,4 +1,4 @@
-import '/src/css/Contacto.css'
+import '../css/Contacto.css'
 
 function Contacto() {
 

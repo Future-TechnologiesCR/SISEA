@@ -1,4 +1,4 @@
-import '/src/css/pie.css'
+import '../css/pie.css'
 
 
  function Pie() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import '/src/css/video.css'
+import '../css/video.css'
 import Presentacion from "/src/video/Presentacion.mp4"
 
 function Video() {

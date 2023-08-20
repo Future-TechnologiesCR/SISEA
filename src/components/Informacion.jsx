@@ -1,4 +1,4 @@
-import '/src/css/Informacion.css'
+import '../css/Informacion.css'
 import info from '../assets/img/info.png'
 
 function Informacion() {

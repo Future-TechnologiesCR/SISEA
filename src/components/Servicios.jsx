@@ -1,4 +1,4 @@
-import "/src/css/Servicios.css";
+import "../css/Servicios.css";
 import produc1 from "../assets/img/servicio1.png"
 import produc2 from "../assets/img/servicio2.png"
 import produc3 from "../assets/img/servicio3.png"

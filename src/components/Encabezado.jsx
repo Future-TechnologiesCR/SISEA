@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import "/src/css/Encabezado.css";
+import "../css/Encabezado.css";
 import logo from "../assets/img/Logo.png";
 
 function Encabezado() {
