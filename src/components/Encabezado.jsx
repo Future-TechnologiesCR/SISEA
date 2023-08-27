@@ -16,7 +16,7 @@ function Encabezado() {
             className="navbar-imagen"
           />
           <h4 className="logo">
-            <b>SISEA Seguridad</b>
+            <b><a href="#" style={{textDecoration:"none", color:"black"}}>SISEA Seguridad</a></b>
           </h4>
         </div>
 
