@@ -5,16 +5,16 @@ function Contacto() {
     return (
         <>
         <div id='Contacto'>
-            <h1 className='titulo-contacto'>Contactenos</h1>
+            <h1 className='titulo-contacto'>Contáctenos</h1>
             <div className='contacto'>
                 <div className='info-contacto'>
                     <div className='cuadro1'>
                         <h5><b>Solicite una cita</b></h5>
                         <p>Oficinas: 8:00 AM - 5:00 PM</p>
                         <p>Monitoreo 24 horas</p>
-                        <p>Soporte tecnico: 8:00 am - 5:00 pm</p>
+                        <p>Soporte técnico: 8:00 am - 5:00 pm</p>
                         <p>contacto@sisea.co.cr</p>
-                        <p>Telefono: +506 2225-2121</p>
+                        <p>Teléfono: +506 2225-2121</p>
                     </div>
                     <div className='cuadro2'>
                         <h5><b>Encuéntrenos</b></h5>
@@ -23,7 +23,7 @@ function Contacto() {
                     <div className="block-left"></div>
                         <div className="container">
                             <div className='wraper'>
-                                <h5><b>Comuniquese</b></h5>
+                                <h5><b>Comuníquese</b></h5>
                             <div className="button" 
                                 onClick={() => {
                                     window.open("https://www.instagram.com/sisea_seguridad", "_blank");
@@ -36,14 +36,14 @@ function Contacto() {
                                     window.open("https://www.facebook.com/SISEA", "_blank");
                             }}>
                             <div className="icon"><i className="fab fa-facebook"></i></div>
-                                <span>facebook</span>
+                                <span>Facebook</span>
                             </div>
                             <div className="button"
                                 onClick={() => {
                                     window.open("https://api.whatsapp.com/send?phone=50672920011", "_blank");
                             }}>
                             <div className="icon"><i className="fab fa-whatsapp"></i></div>
-                                <span>whatsapp</span>
+                                <span>WhatsApp</span>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function Contacto() {
                         <p>CONSULTAS, PRESUPUESTOS, COMPRAS, O AFLIACIONES </p>
                         <div className="wrapper">
                         <form 
-                            action="https://formsubmit.co/pedroborbonserrano@gmail.com" 
+                            action="https://formsubmit.co/info@sisea.co.cr" 
                             method="POST"
                             className="contact__form"
                         >
@@ -96,7 +96,7 @@ function Contacto() {
                             ENVIAR
                             <div className="shadow"></div>
                             </button>
-                            <input type="hidden" name="_next" value="https://futuretechnologiescr.netlify.app/"></input>
+                            <input type="hidden" name="_next" value="https://www.sisea.co.cr/"></input>
                         </form>
                         </div>
                         <div className="block-left"></div>
