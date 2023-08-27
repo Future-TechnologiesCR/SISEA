@@ -10,7 +10,7 @@ function Catalogo() {
       <div id="Catalogo">
         <h1 className="titulo-catalogo">Cat&aacute;logo</h1>
         <p className="subtitulo-catalogo">
-          Para consultar o adquirir cualquiera de nuestros productos contactenos
+          Para consultar o adquirir cualquiera de nuestros productos contáctenos
         </p>
         <div className="fila-catalogo">
           <h3 type="button" className="card-button-catalogo">
@@ -44,7 +44,7 @@ function Catalogo() {
               </Tarjeta>
               <Tarjeta
                 img={img.default.produc4}
-                title={"Detector de moviviento interno"}
+                title={"Detector de movimiento interno"}
               >
                 Gran rechazo a EMI y RFI (interferencias electromagnéticas y de
                 radiofrecuencia
@@ -128,7 +128,7 @@ function Catalogo() {
                 <br />
                 Rango IR hasta 30 m.
                 <br />
-                30 FPS Fotografias por Segundo
+                30 FPS Fotografías por Segundo
                 <br />
                 ONVIF 2.4
                 <br />
@@ -269,7 +269,7 @@ function Catalogo() {
                 <br />
                 Leyenda en español.
                 <br />
-                Luz estroboscopica blanca.
+                Luz estroboscópica blanca.
                 <br />
                 Alambrada.
                 <br />
@@ -277,13 +277,13 @@ function Catalogo() {
               </Tarjeta>
               <Tarjeta
                 img={img.default.produc17}
-                title={"Sensor líneal de barrera infraroja"}
+                title={"Sensor lineal de barrera infrarroja"}
               >
                 Detector de Barrera por infrarrojos.
                 <br />
                 Alcance máx de detección 60 mts.
                 <br />
-                Tamper / Salida de réle.
+                Tamper / Salida de relé.
                 <br />
                 Alimentación DC12V.
                 <br />
@@ -296,7 +296,7 @@ function Catalogo() {
               </Tarjeta>
               <Tarjeta
                 img={img.default.produc20}
-                title={"Video grabador de 4,8,16 canales Hibrido"}
+                title={"Video grabador de 4,8,16 canales Híbrido"}
               >
                 Grabador de 4,8 y 16 canales.
                 <br />
@@ -477,7 +477,7 @@ function Catalogo() {
               <Tarjeta
                 img={img.default.produc21}
                 title={
-                  "Sistema de control de accesso autocontenidos o administrados"
+                  "Sistema de control de acceso autocontenidos o administrados"
                 }
               >
                 Sistemas que se integran a través de un PC local o remoto.

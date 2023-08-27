@@ -13,7 +13,7 @@ function Informacion() {
             <h5 className='sup-titulo'>Nuestra Misión</h5>
             <p className='info-contenido'>Proveer  a nuestros clientes un servicio de calidad, en materia de seguridad electrónica, para lograrlo incorporamos equipos y herramientas  de última tecnología y en constante evolución , contamos con un selecto grupo de colaboradores identificados en satisfacer las necesidades de nuestros clientes.</p>
             <hr />
-            <h5 className='sup-titulo'>Visi&oacute;n</h5>
+            <h5 className='sup-titulo'>Visión</h5>
             <p className='info-contenido'>Ser empresa líder en materia de seguridad electrónica y física a nivel nacional, ofreciendo servicios de alta competitividad para satisfacer las exigencias de nuestros clientes.</p>
             <hr />
             <h5 className='sup-titulo'>Valores</h5>

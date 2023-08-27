@@ -50,8 +50,8 @@ function Contacto() {
                 </div>
                 <div className='formulario'>
                     <section className="contact section scroll-spy-section" id="contact">
-                        <h2 className="heading-underline">PREGUNTANOS DIRECTAMENTE</h2>
-                        <p>CONSULTAS, PRESUPUESTOS, COMPRAS, O AFLIACIONES </p>
+                        <h2 className="heading-underline">PREGÚNTANOS DIRECTAMENTE</h2>
+                        <p>CONSULTAS, PRESUPUESTOS, COMPRAS, O AFILIACIONES </p>
                         <div className="wrapper">
                         <form 
                             action="https://formsubmit.co/info@sisea.co.cr" 
@@ -61,7 +61,7 @@ function Contacto() {
                             <input
                             type="hidden"
                             name="_subject"
-                            value="Correo proveniente de la página!"
+                            value="Correo proveniente de la página Web!"
                             />
                             <input
                             type="hidden"
