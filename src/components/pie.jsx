@@ -12,10 +12,10 @@ function Pie() {
           color: 'white',
         }}
       >
-        {/* <p>© {year} Creado por <b><a href='https://futuretechcr.com'>Future Technologies CR</a></b></p> */}
+        <p>© {year} Creado por <b><a href='https://futuretechcr.com'>Future Technologies CR</a></b></p>
 
-        SISEA
-        Curridabat, San José, Costa Rica
+        {/* SISEA
+        Curridabat, San José, Costa Rica */}
 
       </div>
     </>
